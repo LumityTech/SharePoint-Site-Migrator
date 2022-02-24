@@ -1,0 +1,35 @@
+{
+    "$schema": "https://aka.ms/sppnp-extract-configuration-schema",
+    "handlers": [
+        "Fields",
+        "Files",
+        "Lists",
+        "Pages",
+        "WebSettings",
+        "SiteSettings",
+        "Navigation",
+        "Theme"
+    ],
+    "pages": {
+        "excludeAuthorInformation": true,
+        "includeAllClientSidePages": true
+    },
+    "lists": {
+        "lists": [{
+                "includeItems": false,
+                "title": "Events"
+            },
+            {
+                "includeItems": true,
+                "title": "Documents"
+            }
+        ]
+    },
+    "persistAssetFiles": true,
+    "siteSecurity": {
+        "includeSiteGroups": false
+    },
+    "navigation": {
+        "removeExistingNodes": true
+    }
+}
