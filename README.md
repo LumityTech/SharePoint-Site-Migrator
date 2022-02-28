@@ -9,13 +9,13 @@ As of Feb 2022, there is no way to easily apply templates to SPO sites natively 
 
 ## Structure
 
-- exportSPOPageTemplateAsXML.ps1 (export...ps1 herein)
+- Export-SPOPageTemplateAsXML.ps1
 
 A Powershell script used to handle exporting an existing SPO site as a template. The process utilizes the Powershell PNP SP package to pull the site assets stored on the site and generate an XML file representing the site template. 
 
-- invokeSPOPageTemplateXML.ps1 (invoke...ps1 herein)
+- Invoke-POPageTemplateXML.ps1
 
-A Powershell script use to handle applying a  SPO page XML template. The process specifically requires the export...ps1 script to have been run prior, the template generated is then used by the invoke...ps1 script. 
+A Powershell script use to handle applying a SPO page XML template. The process specifically requires the export script to have been run prior, the template generated is then used by the invoke script. 
 
 - SPPNPConfigExtraction.json
 
